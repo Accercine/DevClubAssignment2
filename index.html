@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <title>Rohit Agarwal</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <script src="scroll.js"></script>
+  <script src="parallax.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });</script>
+</head>
+<body>
+  <div class="large-header parallax" id="large-header" data-parallax="scroll" data-image-src="back.jpg" data-speed="0.4">
+    <canvas id="demo-canvas"></canvas>
+    <center>
+    <div class="myimg">
+      <img src="myimg.png">
+    </div>
+    <h1 class="main-title">Rohit Agarwal</h1>
+    <div class="ttext"><p>Hello! Welcome to my webpage.</br>
+    I am a 19 year old undergraduate student currently pursuing Electrical Engineering from Indian Institue of Technology, Delhi.</p>
+    </div>
+    <a href="#ints">
+      <div class="down">
+      </div>
+    </a>
+    </center>
+  </div>
+  <ul class="nav">
+    <li><a href="#large-header">Me</a></li>
+    <li><a href="#ints">Interests</a></li>
+    <li><a href="#hobs">Hobbies</a></li>
+    <li><a href="#pros">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="blank" id="ints"></div>
+  <div id="interest" class="interest">
+    <h2>Interests</h2>
+    <center>
+    <div class="inttext">
+    <p>I have a keen interest in coding and development and I am currently working on developing my skills in these areas. </p>
+    </div>
+    <div class="intpic">
+      <img src="code.jpg">
+    </div>
+    </center>
+  </div>
+  <div class="blank" id="hobs"></div>
+  <div id="hob" class="hob">
+    <h2>Hobbies</h2>
+    <center>
+    <div class="hobtxt">
+      <p>I like to play badminton and table tennis. I also love to listen good music. I also like to read novels.</p>
+    </div>
+    <div class="hobpic">
+      <img src="hobby.jpg">
+    </div>
+    <div class="hobtxt">
+      <p>Playing phone games, browsing memes and youtube are also some things I do to pass time.</p>
+    </div>
+    </center>
+  </div>
+  <div class="blank" id="pros"></div>
+  <div id="projects">
+    <h2>Projects</h2>
+     <p>You can take a look on my work here. I will add the projects on which I will work over time on this webpage.</p>
+  <center><div class="project"><div class="projecttext">
+    <h2> lorem </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div></div>
+  <div class="project"><div class="projecttext">
+    <h2> ipsum </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div></div>
+  <div class="project"><div class="projecttext">
+    <h2> dolor </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div></div>
+  <div class="project"><div class="projecttext">
+    <h2> sit </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div></div>
+  <div class="project"><div class="projecttext">
+    <h2> amet </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div></div></center></div>
+  <div id="contact" class="green" style="padding-top:10px;padding-bottom:10px;">
+    <div class="ttext"><p>You can contact me at:</p></div>
+    <center>
+    <a href="https://www.facebook.com/rohit.agarwal.5268750" target="_blank"><div class="fb" title="Facebook"></div></a>
+    <a href="https://twitter.com/rohit__agarwal" target="_blank"><div class="tw" title="Twitter"></div></a>
+    <a href="mailto:agarwal.rohit0910@gmail.com"><div class="mail" title="eMail"></div></a>
+    <div class="ttext"><p>or leave feedback/comment here:</p></div>
+    <form>
+      <input type="text" id="comment" value="" placeholder="Comment...">
+      <button onclick="func();return false;">Submit</button>
+      <p id="c"></p>
+      <script>
+                 function func() {
+                   var com=document.getElementById(comment);
+                     document.getElementById("c").innerHTML= "Done!";
+                    document.getElementById("comment").value = "";
+                 }
+                 </script>
+      </form>
+    </center>
+  </div>
+</body>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/header.js"></script>
+</html>

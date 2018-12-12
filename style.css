@@ -1,0 +1,225 @@
+@font-face { font-family: origram; src: url('Origram.otf'); }
+@font-face { font-family: avenir; src: url('Avenir.ttc'); }
+
+body {
+  font-family: avenir, serif;
+  margin:0;
+  background-color:rgb(225,225,225);
+}
+
+div.large-header {
+  overflow: hidden;
+}
+
+.parallax {
+  background: transparent;
+}
+
+div.myimg {
+  height: 35%;
+  width: 35%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 34%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.myimg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.large-header p{
+  position: absolute;
+  margin: 0;
+  font-size: 1.4vw;
+  text-align: center;
+  top: 71%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.ttext p {
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+.main-title {
+  font-family: origram;
+  font-size: 4.5vw;
+  color: mediumseagreen;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 58.2%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+div.down {
+  height: 5%;
+  width: 5%;
+  background: url(down.gif) center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 94%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: mediumseagreen;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: rgba(40,159,93, 0.7);
+}
+
+#projects, #hob, #interest {
+  margin: 5%;
+}
+
+div.hobtxt, div.hobpic, div.inttext, div.intpic {
+  height: auto;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.hobpic img, .intpic img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+div.project {
+  background-image: url("probac.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: inline-block;
+  overflow-y: scroll;
+  border-radius: 25px;
+  box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, .1);
+}
+
+div.projecttext {
+  background-color: rgba(20, 20, 20, 0.4);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+h2 {
+  color: rgb(20,139,73);
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.project h2 {
+  color: rgb(20,139,73);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 0px;
+}
+
+.project h2:hover {
+  font-size: 32px;
+  color: #008000}
+
+.project p{
+  color: lightgrey;
+  text-align: center;
+  margin: 15px;
+  margin-top: 5px;
+}
+
+div.green{
+  background-color: mediumseagreen;
+  width: 100%;
+}
+
+.green p{
+  font-size: 20px;
+}
+
+
+div.fb, div.tw, div.mail {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.fb {
+  background-image: url("fbbw.png");
+}
+
+div.fb:hover {
+  background-image: url("fb.png");
+}
+
+div.tw {
+  background-image: url("twitterbw.png");
+}
+
+div.tw:hover {
+  background-image: url("twitter.png");
+}
+
+div.mail {
+  background-image: url("mailbw.png");
+}
+
+div.mail:hover {
+  background-image: url("mail.png");
+}
+
+div.blank{
+  height: 10px;
+  margin: 0px;
+}
